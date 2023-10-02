@@ -1,0 +1,8 @@
+This is a github folder for SRMP project
+To link a colab with github do:
+
+from google.colab import drive
+drive.mount('/content/drive')
+!git clone https://github.com/lyx12311/SRMP_projects
+
+Then in your colab file, click on "file" -> "save a copy in github"
